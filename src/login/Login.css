@@ -15,6 +15,7 @@
   font-weight: 700;
   font-style: normal;
 }
+<<<<<<< HEAD
  
 *{
   background-color: rgb(252, 241, 241);
@@ -38,11 +39,19 @@
   width: 200%;
   margin-left: -3vh;
 }
+=======
+>>>>>>> f6a5d5520ec6487d8fdc43147712a0892c9593a2
 
 .container {
 align-items: center;
 justify-content: center;
+<<<<<<< HEAD
 margin-top: 15vh;
+=======
+height: 100vh;
+background-color: white;
+margin-top: 100px;
+>>>>>>> f6a5d5520ec6487d8fdc43147712a0892c9593a2
 }
 
 h1 {
@@ -57,17 +66,27 @@ display: flex;
 flex-direction: column;
 align-items: center;
 gap: 10px;
+<<<<<<< HEAD
 background-color: #fde0d6;
+=======
+background-color: rgb(220, 208, 193);
+>>>>>>> f6a5d5520ec6487d8fdc43147712a0892c9593a2
 border: none;
 padding: 20px;
 border-radius: 30px;
 box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+<<<<<<< HEAD
 width: 39vh;
 height: 30vh;
 }
 .inputbox{
   background-color: #fde0d6;
 }
+=======
+width: 300px;
+}
+
+>>>>>>> f6a5d5520ec6487d8fdc43147712a0892c9593a2
 label {
 font-size: 16px;
 font-weight: bold;
@@ -91,6 +110,7 @@ input[type="password"] {
 
 }
 
+<<<<<<< HEAD
 .login {
   padding: 10px 20px;
   margin-top: 10px;
@@ -119,6 +139,20 @@ input[type="password"] {
 
 }
 
+=======
+
+button {
+padding: 10px 20px;
+margin-top: 10px;
+background-color: black;
+color: #fff;
+border: none;
+border-radius: 20px;
+cursor: pointer;
+transition: background-color 0.2s;
+font-family: 'bitbit';
+}
+>>>>>>> f6a5d5520ec6487d8fdc43147712a0892c9593a2
 p{
     font-size : 13px;
     margin-top: 10px;
@@ -126,5 +160,9 @@ p{
 
 
 button:hover {
+<<<<<<< HEAD
 background-color:  #cf6947;
+=======
+background-color:  rgb(200, 78, 17);
+>>>>>>> f6a5d5520ec6487d8fdc43147712a0892c9593a2
 }

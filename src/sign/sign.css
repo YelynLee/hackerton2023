@@ -24,7 +24,11 @@
 
 
 .page {
+<<<<<<< HEAD
     margin-top: 12vh;
+=======
+    margin-top: 15vh;
+>>>>>>> f6a5d5520ec6487d8fdc43147712a0892c9593a2
     padding: 0 20px;
     display: flex;
     flex-direction: column;
@@ -38,6 +42,7 @@
 }
 
 .contentWrap {
+<<<<<<< HEAD
     width: 50vw;
     height: 70vh;
     display: flex;
@@ -46,6 +51,12 @@
     flex: 1;
     background-color: #FDE0D6;
     padding: 30px;
+=======
+    margin-top: 26px;
+    flex: 1;
+    background-color: rgb(220, 208, 193);
+    padding: 58px;
+>>>>>>> f6a5d5520ec6487d8fdc43147712a0892c9593a2
     border-radius: 30px;
 }
 
@@ -67,7 +78,11 @@
 }
 
 .inputWrap:focus-within {
+<<<<<<< HEAD
     border: 2px solid rgb(200, 78, 17);
+=======
+    border: 2px solid green;
+>>>>>>> f6a5d5520ec6487d8fdc43147712a0892c9593a2
 }
 input {
     width: 100%;
@@ -105,7 +120,11 @@ input::placeholder {
 }
 
 .bottomButton:hover{
+<<<<<<< HEAD
     background-color:  #cf6947;
+=======
+    background-color: rgb(200, 78, 17);
+>>>>>>> f6a5d5520ec6487d8fdc43147712a0892c9593a2
 }
 
 .goButton {
@@ -125,11 +144,16 @@ input::placeholder {
 
 .HomeBtn {
     width: 15vw;
+<<<<<<< HEAD
     height: 5vh;
+=======
+    height: 3vh;
+>>>>>>> f6a5d5520ec6487d8fdc43147712a0892c9593a2
     font-size: 15px;
     font-weight: 100;
     border-color: rgb(227, 205, 178);
     border-radius: 20px;
+<<<<<<< HEAD
     margin-top: 2.4vh;
     background-color: black;
     color: white;
@@ -145,16 +169,33 @@ input::placeholder {
 .inputbox{
     background-color: #fde0d6;
   }
+=======
+    margin-top: 3vh;
+    background-color: black;
+    font-family:'bitbit';
+    padding: 1%;
+    cursor: pointer;
+
+}
+>>>>>>> f6a5d5520ec6487d8fdc43147712a0892c9593a2
 
 .signinBtn{
     margin-top: 2vh;
     font-size: 15px;
+<<<<<<< HEAD
     background-color:  #cf6947;
+=======
+    color: green;
+>>>>>>> f6a5d5520ec6487d8fdc43147712a0892c9593a2
     cursor: pointer;
     font-family: 'KimjungchulGothic-Bold';
 
 }
 
 .signinBtn:hover {
+<<<<<<< HEAD
     background-color:  #cf6947;
+=======
+    color: black
+>>>>>>> f6a5d5520ec6487d8fdc43147712a0892c9593a2
 }

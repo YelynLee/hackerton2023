@@ -1,0 +1,85 @@
+.simple-page {
+  font-family: 'bitbit', sans-serif;
+}
+
+.simplepage-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: rgb(188, 19, 148);
+  color: white;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+}
+
+.category-menu {
+  display: flex;
+  gap: 20px;
+}
+
+.category-button {
+  font-size: 16px;
+  padding: 10px;
+  background-color: transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+
+.content {
+  padding: 20px;
+}
+
+.faq-section {
+  background-color: rgb(233, 143, 143);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+
+.accordion-header {
+  padding: 10px;
+  background-color: rgb(181, 152, 152);
+  font-weight: bold;
+}
+
+
+.accordion-content {
+  padding: 10px;
+  display: none;
+}
+
+.accordion-content.active {
+  display: block;
+}
+
+.page-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.back-button,
+.ask-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: rgb(51, 99, 255);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.ask-button {
+  background-color: rgb(50, 168, 82);
+}
+
+.ask-button:hover,
+.back-button:hover {
+  background-color: rgb(41, 77, 158);
+}
