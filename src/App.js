@@ -5,6 +5,7 @@ import Sign from './sign/sign';
 import Home from './mainpage/Home';
 import SimplePage from './simplepage/SimplePage';
 import Pluspage from './pluspage/pluspage';
+import MissionPage from './missonpage/MissionPage';
 
 function App() { 
     return(
@@ -12,6 +13,7 @@ function App() {
             <Routes>
                 <Route path="/" element={<Login />} />
                 <Route path="/main" element = {<Home />} />
+                <Route path ="/missonpage" element = {<MissionPage/>}/>
                 <Route path ="/pluspage" element = { <Pluspage/>} />    
                 <Route path ="/simplepage" element = { <SimplePage/>} />
                 <Route path="/login" element={<Login />} />
